@@ -1,0 +1,505 @@
+main {
+  #slider {
+    width: 100%;
+    margin: 0px auto;
+    .cards-items {
+      background-color: rgb(236 237 240);
+      font-family: sans-serif;
+      .card-item1 {
+        width: 80%;
+        height: 75vh;
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: center;
+        .text {
+          h1 {
+            font-size: 50px;
+          }
+          p {
+            font-size: 1.125rem;
+            color: rgba(0, 0, 0, 0.6);
+            width: 750px;
+            line-height: 25px;
+            margin: 20px 0;
+          }
+          button {
+            margin: 20px 0;
+            font-family: sans-serif;
+            border: none;
+            padding: 15px 25px;
+            font-size: 20px;
+            font-weight: bold;
+            font-size: 16px;
+            background-color: rgb(28 131 220);
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 600ms;
+            a {
+              color: white;
+            }
+            &:hover {
+              background-color: rgba(28, 131, 220, 0.8);
+            }
+          }
+        }
+        .image {
+          img {
+            width: 450px;
+          }
+        }
+      }
+      .card-item2 {
+        width: 80%;
+        height: 75vh;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h1 {
+          font-size: 60px;
+          font-weight: 500;
+        }
+        p {
+          font-size: 1.125rem;
+          color: rgba(0, 0, 0, 0.6);
+          width: 750px;
+          line-height: 25px;
+          margin: 10px 0;
+        }
+        button {
+          margin: 20px 0;
+          font-family: sans-serif;
+          border: none;
+          padding: 15px 25px;
+          font-size: 20px;
+          font-weight: bold;
+          font-size: 16px;
+          background-color: rgb(28 131 220);
+          border-radius: 5px;
+          cursor: pointer;
+          transition: all 600ms;
+          a {
+            color: white;
+          }
+          &:hover {
+            background-color: rgba(28, 131, 220, 0.8);
+          }
+        }
+        .logos {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 30px;
+          img {
+            width: 150px;
+          }
+        }
+      }
+      .card-item3 {
+        width: 80%;
+        height: 75vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .bckImage {
+          width: 80%;
+          height: 80%;
+          background-size: cover;
+          background-position: center;
+          background-image: url("https://www.nbatech.az/assets/images/hero/pax-a6650.jpg");
+          .texts {
+            text-align: end;
+            color: white;
+            margin: 50px;
+            h1 {
+              font-size: 45px;
+            }
+            .p {
+              margin: 20px 0;
+            }
+            button {
+              margin: 20px 0;
+              font-family: sans-serif;
+              border: none;
+              padding: 15px 25px;
+              font-size: 20px;
+              font-weight: bold;
+              color: white;
+              font-size: 16px;
+              background-color: rgb(28 131 220);
+              border-radius: 5px;
+              cursor: pointer;
+              transition: all 600ms;
+              a {
+                color: white;
+              }
+              &:hover {
+                background-color: rgba(28, 131, 220, 0.8);
+              }
+            }
+          }
+        }
+      }
+      .fa-solid {
+        display: none;
+      }
+    }
+  }
+  #counter {
+    font-family: sans-serif;
+    opacity: 0.85;
+    width: 100%;
+    height: 25vh;
+    background-position: center;
+    background-color: rgb(28 131 220);
+    background-image: url("https://www.nbatech.az/assets/images/details/decorator.webp");
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: space-around;
+    .count {
+      color: white;
+      text-align: center;
+      h1 {
+        font-size: 45px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+  #terefdaslar {
+    font-family: sans-serif;
+    opacity: 0.95;
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-color: rgb(28 131 220);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    color: white;
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      margin: 15px 0;
+      font-size: 20px;
+    }
+    .sponsor {
+      display: grid;
+      grid-template-columns:
+        auto auto auto auto auto auto auto
+        auto;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      img {
+        width: 150px;
+      }
+    }
+  }
+  #mehsullar {
+    width: 87%;
+    margin: 50px auto;
+    height: 80vh;
+    font-family: sans-serif;
+    .head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .left {
+        h1 {
+          font-size: 27px;
+        }
+        p {
+          color: gray;
+          margin: 10px 0;
+        }
+      }
+      a {
+        color: black;
+        font-weight: bold;
+      }
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      margin: 30px 0;
+      .card {
+        width: 300px;
+        height: 470px;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+        .imgs {
+          border-bottom: 1px solid gainsboro;
+          position: relative;
+
+          height: 300px;
+          p {
+            padding: 5px;
+            border-radius: 7px;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            z-index: 3;
+            font-size: 13px;
+            background-color: rgb(244, 244, 244);
+          }
+          img {
+            border-top-right-radius: 8px;
+            border-top-left-radius: 8px;
+            width: 299px;
+            object-fit: cover;
+            height: 299px;
+            // &:hover{
+            //  transform: scale(1.1);
+            // }
+          }
+        }
+        .title {
+          margin: 20px;
+          h3 {
+            font-size: 17px;
+            font-weight: 400;
+            margin: 10px 0;
+          }
+          p {
+            color: gray;
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+  #logistika {
+    width: 85%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    font-family: sans-serif;
+    gap: 30px;
+    align-items: center;
+    .info {
+      h1 {
+        font-size: 40px;
+        font-weight: 500;
+        span {
+          color: rgb(137 189 36);
+          font-weight: 600;
+        }
+      }
+      p {
+        margin: 20px 0;
+        color: gray;
+        font-size: 17px;
+      }
+      button {
+        width: 250px;
+        font-family: sans-serif;
+        border: none;
+        padding: 15px 25px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        font-size: 16px;
+        background-color: rgb(137 189 36);
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 600ms;
+        a {
+          color: white;
+        }
+      
+      }
+    }
+    img {
+      width: 650px;
+      border-top-right-radius: 80px;
+      border-bottom-right-radius: 80px;
+    }
+  }
+  #konsultasiya {
+    width: 85%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    font-family: sans-serif;
+    align-items: center;
+    gap: 30px;
+    .info {
+      text-align: end;
+      h1 {
+        font-size: 40px;
+        font-weight: 500;
+        span {
+          color: rgb(185 113 223);
+          font-weight: 600;
+        }
+      }
+      p {
+        margin: 20px 0;
+        color: gray;
+        font-size: 17px;
+      }
+      button {
+        width: 250px;
+        font-family: sans-serif;
+        border: none;
+        padding: 15px 25px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        font-size: 16px;
+        background-color: rgb(185 113 223);
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 600ms;
+        a {
+          color: white;
+        }
+      
+      }
+    }
+    img {
+      width: 650px;
+      border-top-left-radius: 80px;
+      border-bottom-left-radius: 80px;
+    }
+  }
+  #media {
+    width: 87%;
+    margin: 70px auto;
+    height: 50vh;
+    font-family: sans-serif;
+    .head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .left {
+        h1 {
+          font-size: 27px;
+        }
+      }
+      a {
+        color: black;
+        font-weight: bold;
+      }
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      margin: 30px 0;
+      .card {
+        width: 300px;
+        height: 300px;
+
+        .imgs {
+          img {
+            width: 300px;
+            height: 200px;
+          }
+        }
+        .title {
+          h3 {
+            font-size: 17px;
+            font-weight: 400;
+            margin: 10px 0;
+          }
+          p {
+            color: gray;
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+  #musteriler {
+    width: 80%;
+    height: 30vh;
+    margin: 60px auto;
+    font-family: sans-serif;
+    .head {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 30px 0;
+      h1 {
+        font-size: 40px;
+        color: rgb(28 131 220);
+      }
+      p {
+        color: gray;
+        margin: 15px 0;
+        font-size: 20px;
+      }
+    }
+    .logo-items {
+      .logo {
+        img {
+          width: 180px;
+          object-fit: contain;
+          height: 70px;
+        }
+      }
+    }
+  }
+  #satis {
+    width: 85%;
+    margin: 70px auto;
+    height: 50vh;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: rgb(248 247 251);
+    border-radius: 50px;
+    .info {
+      h1 {
+        font-size: 30px;
+      }
+      p {
+        margin: 20px 0;
+        color: gray;
+      }
+      button {
+        width: 200px;
+        font-family: sans-serif;
+        border: none;
+        padding: 15px 25px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        font-size: 16px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 600ms;
+        a {
+          color: white;
+        }
+        &:hover {
+          background-color: rgba(50, 49, 49, 0.8);
+        }
+      }
+    }
+    img {
+      width: 300px;
+    }
+  }
+}

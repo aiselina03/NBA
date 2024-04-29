@@ -1,0 +1,38 @@
+main {
+  #layiheler {
+    width: 80%;
+    margin: 50px auto;
+    font-family: sans-serif;
+    .header {
+      h1 {
+        font-size: 40px;
+      }
+      p {
+        color: gray;
+        margin: 10px 0;
+      }
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      align-items: center;
+      margin: 40px 0;
+      .card {
+        width: 300px;
+        img {
+          width: 300px;
+          object-fit: cover;
+        }
+        .title {
+          h2 {
+            font-size: 18px;
+            margin: 5px 0;
+          }
+          p {
+            color: gray;
+          }
+        }
+      }
+    }
+  }
+}

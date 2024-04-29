@@ -1,0 +1,1084 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 5vh;
+  background-color: rgb(7, 6, 5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header {
+  font-family: sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.75rem;
+}
+header .header .address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+header .header .address p,
+header .header .address a {
+  color: white;
+}
+header .header .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+header .header .link a {
+  color: white;
+}
+
+nav {
+  width: 100%;
+  border-bottom: 1px solid gainsboro;
+  font-family: sans-serif;
+}
+nav .navbar {
+  width: 80%;
+  margin: 0 auto;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .navbar .logo a img {
+  width: 150px;
+}
+nav .navbar .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+nav .navbar .menu li {
+  padding: 26px 0;
+}
+nav .navbar .menu li a {
+  font-size: 0.875rem;
+  color: gray;
+  transition: all 600ms;
+}
+nav .navbar .menu li .active {
+  color: #000;
+  font-weight: bold;
+}
+nav .navbar .menu li:hover {
+  border-bottom: 4px solid rgb(28, 131, 220);
+}
+nav .navbar .menu li:hover a {
+  color: black;
+}
+nav .navbar .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+nav .navbar .icon button {
+  font-family: sans-serif;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: rgb(28, 131, 220);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 600ms;
+}
+nav .navbar .icon button:hover {
+  background-color: rgba(28, 131, 220, 0.8);
+}
+nav .navbar .icon img {
+  cursor: pointer;
+}
+nav .navbar .icon a {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+footer {
+  font-family: sans-serif;
+  width: 100%;
+  margin: 0px auto;
+  border-top: 1px solid gainsboro;
+}
+footer .footer {
+  width: 100%;
+  height: 55vh;
+}
+footer .footer .foot1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: start;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+footer .footer .foot1 .one .xidmet,
+footer .footer .foot1 .two .xidmet,
+footer .footer .foot1 .three .xidmet,
+footer .footer .foot1 .four .xidmet {
+  margin: 20px 0;
+  line-height: 40px;
+}
+footer .footer .foot1 .one .xidmet h3,
+footer .footer .foot1 .two .xidmet h3,
+footer .footer .foot1 .three .xidmet h3,
+footer .footer .foot1 .four .xidmet h3 {
+  color: rgba(7, 6, 5, 0.8);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+footer .footer .foot1 .one .xidmet p,
+footer .footer .foot1 .two .xidmet p,
+footer .footer .foot1 .three .xidmet p,
+footer .footer .foot1 .four .xidmet p {
+  font-size: 0.875rem;
+  line-height: 25px;
+  cursor: pointer;
+  color: rgba(7, 6, 5, 0.5);
+}
+footer .footer .foot1 .one .xidmet2,
+footer .footer .foot1 .two .xidmet2,
+footer .footer .foot1 .three .xidmet2,
+footer .footer .foot1 .four .xidmet2 {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+footer .footer .foot1 .one .xidmet2 a,
+footer .footer .foot1 .two .xidmet2 a,
+footer .footer .foot1 .three .xidmet2 a,
+footer .footer .foot1 .four .xidmet2 a {
+  color: rgba(7, 6, 5, 0.5);
+  margin: 5px 0;
+}
+footer .footer .foot1 .one .xidmet2 img,
+footer .footer .foot1 .two .xidmet2 img,
+footer .footer .foot1 .three .xidmet2 img,
+footer .footer .foot1 .four .xidmet2 img {
+  width: 150px;
+}
+footer .footer .foot1 .one .xidmet2 p,
+footer .footer .foot1 .two .xidmet2 p,
+footer .footer .foot1 .three .xidmet2 p,
+footer .footer .foot1 .four .xidmet2 p {
+  font-size: 0.875rem;
+  margin: 20px 0;
+  width: 300px;
+  color: rgba(7, 6, 5, 0.5);
+}
+footer .footer .foot1 .one .xidmet2 button,
+footer .footer .foot1 .two .xidmet2 button,
+footer .footer .foot1 .three .xidmet2 button,
+footer .footer .foot1 .four .xidmet2 button {
+  margin: 20px 0;
+  width: 200px;
+  font-family: sans-serif;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: rgb(28, 131, 220);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 600ms;
+}
+footer .footer .foot1 .one .xidmet2 button a,
+footer .footer .foot1 .two .xidmet2 button a,
+footer .footer .foot1 .three .xidmet2 button a,
+footer .footer .foot1 .four .xidmet2 button a {
+  color: white;
+}
+footer .footer .foot1 .one .xidmet2 button:hover,
+footer .footer .foot1 .two .xidmet2 button:hover,
+footer .footer .foot1 .three .xidmet2 button:hover,
+footer .footer .foot1 .four .xidmet2 button:hover {
+  background-color: rgba(28, 131, 220, 0.8);
+}
+footer .footer .foot2 {
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgba(7, 6, 5, 0.8);
+  font-weight: 500;
+  gap: 120px;
+}
+footer .footer .foot2 ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+main #slider {
+  width: 100%;
+  margin: 0px auto;
+}
+main #slider .cards-items {
+  background-color: rgb(236, 237, 240);
+  font-family: sans-serif;
+}
+main #slider .cards-items .card-item1 {
+  width: 80%;
+  height: 75vh;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+}
+main #slider .cards-items .card-item1 .text h1 {
+  font-size: 50px;
+}
+main #slider .cards-items .card-item1 .text p {
+  font-size: 1.125rem;
+  color: rgba(0, 0, 0, 0.6);
+  width: 750px;
+  line-height: 25px;
+  margin: 20px 0;
+}
+main #slider .cards-items .card-item1 .text button {
+  margin: 20px 0;
+  font-family: sans-serif;
+  border: none;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: rgb(28, 131, 220);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 600ms;
+}
+main #slider .cards-items .card-item1 .text button a {
+  color: white;
+}
+main #slider .cards-items .card-item1 .text button:hover {
+  background-color: rgba(28, 131, 220, 0.8);
+}
+main #slider .cards-items .card-item1 .image img {
+  width: 450px;
+}
+main #slider .cards-items .card-item2 {
+  width: 80%;
+  height: 75vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main #slider .cards-items .card-item2 h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+main #slider .cards-items .card-item2 p {
+  font-size: 1.125rem;
+  color: rgba(0, 0, 0, 0.6);
+  width: 750px;
+  line-height: 25px;
+  margin: 10px 0;
+}
+main #slider .cards-items .card-item2 button {
+  margin: 20px 0;
+  font-family: sans-serif;
+  border: none;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: rgb(28, 131, 220);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 600ms;
+}
+main #slider .cards-items .card-item2 button a {
+  color: white;
+}
+main #slider .cards-items .card-item2 button:hover {
+  background-color: rgba(28, 131, 220, 0.8);
+}
+main #slider .cards-items .card-item2 .logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+main #slider .cards-items .card-item2 .logos img {
+  width: 150px;
+}
+main #slider .cards-items .card-item3 {
+  width: 80%;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #slider .cards-items .card-item3 .bckImage {
+  width: 80%;
+  height: 80%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://www.nbatech.az/assets/images/hero/pax-a6650.jpg");
+}
+main #slider .cards-items .card-item3 .bckImage .texts {
+  text-align: end;
+  color: white;
+  margin: 50px;
+}
+main #slider .cards-items .card-item3 .bckImage .texts h1 {
+  font-size: 45px;
+}
+main #slider .cards-items .card-item3 .bckImage .texts .p {
+  margin: 20px 0;
+}
+main #slider .cards-items .card-item3 .bckImage .texts button {
+  margin: 20px 0;
+  font-family: sans-serif;
+  border: none;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  background-color: rgb(28, 131, 220);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 600ms;
+}
+main #slider .cards-items .card-item3 .bckImage .texts button a {
+  color: white;
+}
+main #slider .cards-items .card-item3 .bckImage .texts button:hover {
+  background-color: rgba(28, 131, 220, 0.8);
+}
+main #slider .cards-items .fa-solid {
+  display: none;
+}
+main #counter {
+  font-family: sans-serif;
+  opacity: 0.85;
+  width: 100%;
+  height: 25vh;
+  background-position: center;
+  background-color: rgb(28, 131, 220);
+  background-image: url("https://www.nbatech.az/assets/images/details/decorator.webp");
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: space-around;
+}
+main #counter .count {
+  color: white;
+  text-align: center;
+}
+main #counter .count h1 {
+  font-size: 45px;
+}
+main #counter .count p {
+  font-size: 15px;
+}
+main #terefdaslar {
+  font-family: sans-serif;
+  opacity: 0.95;
+  width: 100%;
+  height: 35vh;
+  background-position: center;
+  background-color: rgb(28, 131, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+main #terefdaslar h1 {
+  font-size: 40px;
+}
+main #terefdaslar p {
+  margin: 15px 0;
+  font-size: 20px;
+}
+main #terefdaslar .sponsor {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+main #terefdaslar .sponsor img {
+  width: 150px;
+}
+main #mehsullar {
+  width: 87%;
+  margin: 50px auto;
+  height: 80vh;
+  font-family: sans-serif;
+}
+main #mehsullar .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main #mehsullar .head .left h1 {
+  font-size: 27px;
+}
+main #mehsullar .head .left p {
+  color: gray;
+  margin: 10px 0;
+}
+main #mehsullar .head a {
+  color: black;
+  font-weight: bold;
+}
+main #mehsullar .cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px 0;
+}
+main #mehsullar .cards .card {
+  width: 300px;
+  height: 470px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+main #mehsullar .cards .card .imgs {
+  border-bottom: 1px solid gainsboro;
+  position: relative;
+  height: 300px;
+}
+main #mehsullar .cards .card .imgs p {
+  padding: 5px;
+  border-radius: 7px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  z-index: 3;
+  font-size: 13px;
+  background-color: rgb(244, 244, 244);
+}
+main #mehsullar .cards .card .imgs img {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  width: 299px;
+  object-fit: cover;
+  height: 299px;
+}
+main #mehsullar .cards .card .title {
+  margin: 20px;
+}
+main #mehsullar .cards .card .title h3 {
+  font-size: 17px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+main #mehsullar .cards .card .title p {
+  color: gray;
+  font-size: 13px;
+}
+main #logistika {
+  width: 85%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  font-family: sans-serif;
+  gap: 30px;
+  align-items: center;
+}
+main #logistika .info h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+main #logistika .info h1 span {
+  color: rgb(137, 189, 36);
+  font-weight: 600;
+}
+main #logistika .info p {
+  margin: 20px 0;
+  color: gray;
+  font-size: 17px;
+}
+main #logistika .info button {
+  width: 250px;
+  font-family: sans-serif;
+  border: none;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  background-color: rgb(137, 189, 36);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 600ms;
+}
+main #logistika .info button a {
+  color: white;
+}
+main #logistika img {
+  width: 650px;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+main #konsultasiya {
+  width: 85%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  font-family: sans-serif;
+  align-items: center;
+  gap: 30px;
+}
+main #konsultasiya .info {
+  text-align: end;
+}
+main #konsultasiya .info h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+main #konsultasiya .info h1 span {
+  color: rgb(185, 113, 223);
+  font-weight: 600;
+}
+main #konsultasiya .info p {
+  margin: 20px 0;
+  color: gray;
+  font-size: 17px;
+}
+main #konsultasiya .info button {
+  width: 250px;
+  font-family: sans-serif;
+  border: none;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  background-color: rgb(185, 113, 223);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 600ms;
+}
+main #konsultasiya .info button a {
+  color: white;
+}
+main #konsultasiya img {
+  width: 650px;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+main #media {
+  width: 87%;
+  margin: 70px auto;
+  height: 50vh;
+  font-family: sans-serif;
+}
+main #media .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main #media .head .left h1 {
+  font-size: 27px;
+}
+main #media .head a {
+  color: black;
+  font-weight: bold;
+}
+main #media .cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px 0;
+}
+main #media .cards .card {
+  width: 300px;
+  height: 300px;
+}
+main #media .cards .card .imgs img {
+  width: 300px;
+  height: 200px;
+}
+main #media .cards .card .title h3 {
+  font-size: 17px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+main #media .cards .card .title p {
+  color: gray;
+  font-size: 13px;
+}
+main #musteriler {
+  width: 80%;
+  height: 30vh;
+  margin: 60px auto;
+  font-family: sans-serif;
+}
+main #musteriler .head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
+main #musteriler .head h1 {
+  font-size: 40px;
+  color: rgb(28, 131, 220);
+}
+main #musteriler .head p {
+  color: gray;
+  margin: 15px 0;
+  font-size: 20px;
+}
+main #musteriler .logo-items .logo img {
+  width: 180px;
+  object-fit: contain;
+  height: 70px;
+}
+main #satis {
+  width: 85%;
+  margin: 70px auto;
+  height: 50vh;
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  background-color: rgb(248, 247, 251);
+  border-radius: 50px;
+}
+main #satis .info h1 {
+  font-size: 30px;
+}
+main #satis .info p {
+  margin: 20px 0;
+  color: gray;
+}
+main #satis .info button {
+  width: 200px;
+  font-family: sans-serif;
+  border: none;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 600ms;
+}
+main #satis .info button a {
+  color: white;
+}
+main #satis .info button:hover {
+  background-color: rgba(50, 49, 49, 0.8);
+}
+main #satis img {
+  width: 300px;
+}
+
+main #mehsul {
+  width: 100%;
+  margin: 50px 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 40px;
+  font-family: sans-serif;
+}
+main #mehsul .filter {
+  border-right: 2px solid gainsboro;
+  padding-right: 30px;
+}
+main #mehsul .filter .head h1 {
+  font-size: 26px;
+}
+main #mehsul .filter .head p {
+  color: gray;
+  margin: 10px 0;
+}
+main #mehsul .filter .input input {
+  margin: 10px 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+main #mehsul .filter .category {
+  margin: 20px 0;
+}
+main #mehsul .filter .category h3 {
+  margin: 10px 0;
+}
+main #mehsul .filter .category p {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  margin: 10px 0;
+}
+main #mehsul .filter .category p input {
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+}
+main #mehsul .shop .head h1 {
+  font-size: 26px;
+}
+main #mehsul .shop .head p {
+  color: gray;
+  margin: 10px 0;
+}
+main #mehsul .shop .cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px 0;
+}
+main #mehsul .shop .cards .card {
+  width: 280px;
+  height: 470px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+main #mehsul .shop .cards .card .imgs {
+  border-bottom: 1px solid gainsboro;
+  position: relative;
+  height: 300px;
+}
+main #mehsul .shop .cards .card .imgs p {
+  padding: 5px;
+  border-radius: 7px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  z-index: 3;
+  font-size: 13px;
+  background-color: rgb(244, 244, 244);
+}
+main #mehsul .shop .cards .card .imgs img {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  width: 279px;
+  object-fit: cover;
+  height: 299px;
+}
+main #mehsul .shop .cards .card .title {
+  margin: 20px;
+}
+main #mehsul .shop .cards .card .title h3 {
+  font-size: 17px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+main #mehsul .shop .cards .card .title p {
+  color: gray;
+  font-size: 13px;
+}
+main #satis {
+  width: 85%;
+  margin: 70px auto;
+  height: 50vh;
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  background-color: rgb(248, 247, 251);
+  border-radius: 50px;
+}
+main #satis .info h1 {
+  font-size: 30px;
+}
+main #satis .info p {
+  margin: 20px 0;
+  color: gray;
+}
+main #satis .info button {
+  width: 200px;
+  font-family: sans-serif;
+  border: none;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 600ms;
+}
+main #satis .info button a {
+  color: white;
+}
+main #satis .info button:hover {
+  background-color: rgba(50, 49, 49, 0.8);
+}
+main #satis img {
+  width: 300px;
+}
+
+main #nba {
+  width: 100%;
+  height: 25vh;
+  background-position: center;
+  background-color: rgb(28, 131, 220);
+  background-image: url("https://www.nbatech.az/assets/images/details/decorator.webp");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #nba h1 {
+  font-family: sans-serif;
+  color: white;
+  font-size: 60px;
+}
+main #haqqimizda {
+  width: 80%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  gap: 100px;
+  font-family: sans-serif;
+}
+main #haqqimizda .logo img {
+  width: 250px;
+}
+main #haqqimizda .text {
+  text-align: justify;
+}
+main #haqqimizda .text h3 {
+  margin: 20px 0;
+}
+main #haqqimizda .text p {
+  margin: 20px 0;
+  color: gray;
+}
+
+main #contactPage {
+  width: 80%;
+  margin: 50px auto;
+  font-family: sans-serif;
+}
+main #contactPage .header h1 {
+  font-size: 40px;
+}
+main #contactPage .header p {
+  color: gray;
+  margin: 10px 0;
+}
+main #contactPage .forms {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: start;
+  justify-content: space-between;
+  gap: 60px;
+  font-family: sans-serif;
+}
+main #contactPage .forms p {
+  color: gray;
+  margin: 10px 0;
+}
+main #contactPage .forms form p {
+  color: black;
+}
+main #contactPage .forms form input {
+  width: 600px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+main #contactPage .forms form .contactInfo {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+}
+main #contactPage .forms form .contactInfo .text input {
+  width: 280px;
+}
+main #contactPage .forms form textarea {
+  width: 600px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+main #contactPage .forms form button {
+  margin: 15px 0;
+  width: 120px;
+  font-family: sans-serif;
+  border: none;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 600ms;
+}
+main #contactPage .forms form button a {
+  color: white;
+}
+main #contactPage .forms form button:hover {
+  background-color: rgba(50, 49, 49, 0.8);
+}
+main #contactPage .forms .contact .info {
+  margin: 30px 0;
+}
+main #contactPage .forms .contact .info p {
+  font-size: 16px;
+}
+main #contactPage .forms .contact .info .p {
+  color: black;
+}
+main #contactPage .forms .contact .info .p .fa-solid {
+  font-size: 20px;
+  margin-right: 7px;
+}
+main #contactPage .map {
+  margin: 40px 0;
+}
+
+main #layiheler {
+  width: 80%;
+  margin: 50px auto;
+  font-family: sans-serif;
+}
+main #layiheler .header h1 {
+  font-size: 40px;
+}
+main #layiheler .header p {
+  color: gray;
+  margin: 10px 0;
+}
+main #layiheler .cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  margin: 40px 0;
+}
+main #layiheler .cards .card {
+  width: 300px;
+}
+main #layiheler .cards .card img {
+  width: 300px;
+  object-fit: cover;
+}
+main #layiheler .cards .card .title h2 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+main #layiheler .cards .card .title p {
+  color: gray;
+}
+
+main #karyera {
+  width: 80%;
+  margin: 50px auto;
+  font-family: sans-serif;
+}
+main #karyera .header h1 {
+  font-size: 40px;
+}
+main #karyera .header p {
+  color: gray;
+  margin: 10px 0;
+}
+main #karyera .vakansiyalar h3 {
+  font-size: 25px;
+}
+main #karyera .vakansiyalar input {
+  width: 90%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+main #karyera .vakansiyalar button {
+  margin: 20px 0;
+  font-family: sans-serif;
+  border: none;
+  height: 40px;
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: rgb(28, 131, 220);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 600ms;
+  color: white;
+}
+main #karyera .vakansiyalar button:hover {
+  background-color: rgba(28, 131, 220, 0.8);
+}
+main #karyera .result {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 18px;
+}
+main #karyera .result span {
+  margin-left: 7px;
+}
+main #karyera .cards {
+  margin: 50px 0;
+}
+main #karyera .cards .card {
+  width: 100%;
+  height: 17vh;
+  border: 1px solid gainsboro;
+  margin: 30px 0;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 8px;
+  transition: all 600ms;
+  cursor: pointer;
+}
+main #karyera .cards .card:hover {
+  border-color: rgb(28, 131, 220);
+}
+main #karyera .cards .card h3 {
+  margin: 15px 0;
+  font-size: 20px;
+}
+main #karyera .cards .card p {
+  color: gray;
+}/*# sourceMappingURL=style.css.map */
